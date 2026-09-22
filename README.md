@@ -14,9 +14,7 @@ an AHB-based system to communicate with APB-based peripheral interfaces.
 The design is organized into separate RTL modules for the AHB and APB
 interfaces and the bridge control logic.
 
-![AMBA System Architecture](docs/AMBA%20System.png)
-
-### Main RTL Blocks
+## Main RTL Blocks
 
 - **AHB Master** — Generates AHB-side address, control, and data signals.
 - **AHB Slave Interface** — Receives and processes AHB transactions.
@@ -48,10 +46,9 @@ AHB-to-APB-Bridge-Verilog/
 │   └── bridge_top.v
 │
 ├── docs/
-│   └── AMBA System.png
+│   └── AHB-to-APB-Bridge project report.pdf
 │
 ├── block diagrams and outputs/
-│   ├── Simulation outputs
-│   └── Block diagrams
+│   └── Simulation and block diagram outputs
 │
 └── README.md
